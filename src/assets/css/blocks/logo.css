@@ -1,0 +1,29 @@
+.logo {
+  color: var(--color-gray-200);
+  text-transform: uppercase;
+  font-family: "Golos Text", sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 0.125rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo__title {
+  margin-left: 0.25rem;
+  display: grid;
+}
+
+.logo__img {
+  width: 1.175rem;
+}
+
+@media (min-width: 1366px) {
+  .logo {
+    font-size: 1rem;
+  }
+
+  .logo__img {
+    width: 1.35rem;
+  }
+}

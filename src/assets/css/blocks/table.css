@@ -1,0 +1,78 @@
+.table {
+  padding-top: 0.75rem;
+  font-family: "Golos text", serif;
+  font-size: 1.25rem;
+  text-transform: none;
+  list-style-type: none;
+}
+
+.table__key {
+  margin-bottom: 0.5rem;
+}
+
+.table__value {
+  font-weight: 700;
+}
+
+.table__value:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.125rem;
+  background-color: var(--color-gray-100);
+  margin-block: 0.85rem;
+}
+
+@media (min-width: 1366px) {
+  .table__value:not(:last-child)::after {
+    margin-block: 1rem;
+  }
+
+  .table {
+    display: grid;
+    grid-template-areas:
+      "key1 value1"
+      "key2 value2"
+      "key3 value3"
+      "key4 value4"
+      "key5 value5";
+    grid-template-columns: 100% 100%;
+    line-height: 1.1;
+    padding: 0;
+  }
+
+  .table__key:first-child {
+    grid-area: key1;
+  }
+
+  .table__value:first-child {
+    grid-area: value1;
+  }
+
+  .table__key {
+    margin: 0;
+  }
+
+  .table__value {
+    position: relative;
+  }
+
+  .table__value::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -1rem;
+    height: 100%;
+    width: 0.125rem;
+    background-color: var(--color-gray-100);
+  }
+
+  .table__key:not(:nth-child(9))::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--color-gray-100);
+    margin-block: 1rem;
+  }
+}

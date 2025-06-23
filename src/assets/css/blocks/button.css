@@ -1,0 +1,92 @@
+.buttons-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.button {
+  padding: 0.75rem;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  transition-property: background-color, color;
+  transition-duration: var(--transition-duration-100);
+  transition-timing-function: ease-in-out;
+  border: 0.125rem solid transparent;
+}
+
+.button_pill {
+  border-radius: 4.125rem;
+}
+
+.button_circle {
+  border-radius: 50%;
+}
+
+.button_transparent {
+  opacity: 0.9;
+}
+
+.button_primary {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+.button_primary:hover {
+  background-color: var(--color-accent-yellow);
+  color: var(--color-dark);
+}
+
+.button_primary:disabled {
+  background-color: var(--color-gray-100);
+  color: var(--color-white);
+}
+
+.button_secondary {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+
+.button_secondary:hover {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+.button_link {
+  color: var(--color-blue);
+  border-color: var(--color-blue);
+  background-color: transparent;
+}
+
+.button_link:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.button_icon {
+  padding: 0;
+}
+
+.button_hero {
+  flex: 1;
+}
+
+@media (min-width: 1024px) {
+  .buttons-container {
+    margin-top: 2.25rem;
+    width: 542px;
+    flex-direction: row;
+  }
+
+  .button_hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-block: 1rem;
+  }
+
+  .button_secondary {
+    border-color: var(--color-dark);
+  }
+}

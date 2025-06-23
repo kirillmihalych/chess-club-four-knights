@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 1440px;
+  padding-inline: 1.125rem;
+  margin-inline: auto;
+}
+
+.section {
+  padding-top: 6.875rem;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+@media (min-width: 1366px) {
+  .desktop-hidden {
+    display: none;
+  }
+
+  .section {
+    padding-top: 12.5rem;
+  }
+
+  .mobile-hidden {
+    display: inline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-inline: 2.25rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .wrapper {
+    padding-inline: 4.5rem;
+  }
+}

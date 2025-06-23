@@ -1,0 +1,52 @@
+.content {
+  font-family: "Merriweather", serif;
+  font-size: 2.25rem;
+}
+
+.content__title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+  color: #313131;
+  letter-spacing: 0.0875rem;
+  line-height: 1.1;
+}
+
+.content__title span:nth-child(3) {
+  text-align: center;
+}
+
+.content__title span:last-child {
+  text-align: end;
+}
+
+.content__text {
+  margin-top: 1.5rem;
+  font-family: "Golos Text", sans-serif;
+  font-size: 1.125rem;
+  color: #313131;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    width: 542px;
+    font-size: 3.75rem;
+  }
+
+  .content__text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1366px) {
+  .content__title {
+    margin-top: 3.875rem;
+  }
+}

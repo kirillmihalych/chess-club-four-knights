@@ -1,0 +1,67 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.running-line {
+  font-family: "Merriweather", sans-serif;
+  height: 2.375rem;
+  padding-block: 0.5rem;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #f54932;
+  color: white;
+  text-transform: uppercase;
+}
+
+.running-line_header {
+  transform: translateY(-100%);
+}
+
+.running-line__container {
+  width: fit-content;
+  display: flex;
+  gap: 1rem;
+  animation-name: scroll;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+}
+
+.running-line__content {
+  display: flex;
+  gap: 1rem;
+  text-wrap: nowrap;
+}
+
+.running-line__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.running-line__item_dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .running-line {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 1366px) {
+  .running-line {
+    height: 3.75rem;
+    font-size: 1.375rem;
+  }
+}

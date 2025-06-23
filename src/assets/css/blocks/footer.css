@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 5rem;
+  background-color: var(--color-bg);
+  line-height: 1.2;
+}
+
+.footer__text {
+  font-family: "Golos Text", serif;
+  color: var(--color-gray-300);
+  padding-block: 2.5rem;
+  opacity: 0.6;
+}

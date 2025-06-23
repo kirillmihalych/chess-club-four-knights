@@ -1,0 +1,32 @@
+.feature-card {
+  display: flex;
+  gap: 1rem;
+}
+
+.feature-card__number {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background-color: var(--color-white);
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+
+.feature-bg {
+  background-image: url(../../images/paper_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1366px) {
+  .feature-card {
+    background-image: url(../../images/paper_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 120%;
+    padding: 1.25rem;
+  }
+}

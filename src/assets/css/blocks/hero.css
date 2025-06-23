@@ -1,0 +1,35 @@
+.hero {
+  padding-top: 1.125rem;
+  background-image: url(../src/assets/images/hero_375.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 812px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../src/assets/images/hero_768.png);
+    height: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    background-image: url(../src/assets/images/hero_1366.png);
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .hero {
+    padding-top: 1.5rem;
+    background-image: url(../src/assets/images/hero_1366.png);
+  }
+}
+
+@media (min-width: 1920px) {
+  .hero {
+    background-image: url(../src/assets/images/hero_1920.png);
+  }
+}

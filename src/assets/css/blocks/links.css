@@ -1,0 +1,29 @@
+.link {
+  text-decoration: none;
+  font-family: "Golos text", serif;
+  font-size: 1.125rem;
+  text-transform: none;
+  color: var(--color-blue);
+}
+
+.link_feature {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .link {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .link_stage {
+    display: inline-block;
+    margin: 0;
+    margin-left: 0.25rem;
+  }
+
+  .link_info {
+    align-self: end;
+  }
+}

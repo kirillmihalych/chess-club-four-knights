@@ -1,0 +1,133 @@
+.info {
+  display: grid;
+  gap: 2.25rem;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--color-gray-300);
+  margin-top: 0.375rem;
+  line-height: 1.35;
+}
+
+.info__card_reversed {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+.info__card_reversed img {
+  position: relative;
+  scale: 1.1;
+  z-index: -999;
+}
+
+.info__card {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+}
+
+.info__card img {
+  grid-row: 2;
+}
+
+.strikethrough {
+  position: relative;
+}
+
+.strikethrough::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.125rem;
+  background-color: var(--color-accent-red);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.info__link {
+  text-decoration: none;
+  font-family: "Golos text", serif;
+  font-size: 1.125rem;
+  text-transform: none;
+  color: var(--color-blue);
+}
+
+@media (min-width: 375px) {
+  .info {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .info {
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  .info img {
+    justify-self: center;
+  }
+}
+
+@media (min-width: 1366px) {
+  .info {
+    font-size: 2.25rem;
+    text-align: start;
+    gap: 3rem;
+  }
+
+  .info__card {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0;
+
+    column-gap: 5rem;
+  }
+
+  .info__card p {
+    grid-column: 1 / span 2;
+  }
+  .info__card p:first-child {
+    align-self: end;
+  }
+
+  .info__card p:nth-child(2) {
+    display: inline-block;
+  }
+
+  .info__card img {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .info__card_reversed {
+    grid-template-columns: minmax(auto, 350px) 1fr 1fr;
+    grid-template-rows: 200px 1fr 75px;
+    row-gap: 0.25rem;
+    column-gap: 4rem;
+    margin-top: 2rem;
+  }
+
+  .info__card_reversed p {
+    grid-column: 2 / span 2;
+  }
+
+  .info__card_reversed img {
+    scale: 1.15;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+  }
+}
+
+@media (min-width: 1366px) {
+  .info__card_reversed {
+    grid-template-columns: minmax(auto, 450px) 1fr 1fr;
+  }
+}
+
+.info__card_accent {
+  color: var(--color-accent-red);
+  font-weight: 700;
+}
