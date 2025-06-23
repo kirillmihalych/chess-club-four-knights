@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Merriweather";
+  src: local("Merriweather"),
+    url("/assets/fonts/Merriweather-VariableFont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: local("Golos Text"),
+    url("/assets/fonts/GolosText-VariableFont.woff2") format("woff2");
+}
+
+.font-merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.font-golos-text {
+  font-family: "Golos Text", sans-serif;
+}

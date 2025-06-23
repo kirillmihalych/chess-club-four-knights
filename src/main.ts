@@ -1,23 +1,23 @@
 // css
-import "./assets/css/styles.css";
-import "./assets/css/normalize.css";
-import "./assets/css/fonts.css";
-import "./assets/css/utils.css";
+import "/src/css/styles.css";
+import "/src/css/normalize.css";
+import "/src/css/fonts.css";
+import "/src/css/utils.css";
 // css blocks
-import "./assets/css/blocks/hero.css";
-import "./assets/css/blocks/button.css";
-import "./assets/css/blocks/links.css";
-import "./assets/css/blocks/running_line.css";
-import "./assets/css/blocks/content.css";
-import "./assets/css/blocks/logo.css";
-import "./assets/css/blocks/info.css";
-import "./assets/css/blocks/table.css";
-import "./assets/css/blocks/title.css";
-import "./assets/css/blocks/paginations.css";
-import "./assets/css/blocks/carousel.css";
-import "./assets/css/blocks/feature-card.css";
-import "./assets/css/blocks/player-card.css";
-import "./assets/css/blocks/footer.css";
+import "/src/css/blocks/hero.css";
+import "/src/css/blocks/button.css";
+import "/src/css/blocks/links.css";
+import "/src/css/blocks/running_line.css";
+import "/src/css/blocks/content.css";
+import "/src/css/blocks/logo.css";
+import "/src/css/blocks/info.css";
+import "/src/css/blocks/table.css";
+import "/src/css/blocks/title.css";
+import "/src/css/blocks/paginations.css";
+import "/src/css/blocks/carousel.css";
+import "/src/css/blocks/feature-card.css";
+import "/src/css/blocks/player-card.css";
+import "/src/css/blocks/footer.css";
 // ts
 import Carousel from "./ts/carousel";
 
