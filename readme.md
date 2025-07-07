@@ -4,14 +4,9 @@
 [chess-club-four-knights.netlify.app](https://chess-club-four-knights.netlify.app/)
 
 ## Результаты [PageSpeed Insights](https://pagespeed.web.dev/)
-
-![](/assets/images/desk_pagespeed.webp)
-![](/assets/images/mobile_pagespeed.webp)
+<img src="https://github.com/user-attachments/assets/012da1a0-7d22-4d6d-b622-8e8d3a78df11" width="700" height="400" alt=""></img>
 
 ## Ключевые фичи
-
-- **Производительность**
-  Размер бандла в сжатом виде (gzip): ~7.9kb
 
 - **Полностью адапаптивный дизайн**  
   Работает на всех устройствах от смартфонов до больших мониторов
