@@ -5,13 +5,10 @@
 
 ## Результаты [PageSpeed Insights](https://pagespeed.web.dev/)
 
-![](/assets/images/desk_pagespeed.webp)
-![](/assets/images/mobile_pagespeed.webp)
+![desk_pagespeed](https://github.com/user-attachments/assets/012da1a0-7d22-4d6d-b622-8e8d3a78df11)
+![mobile_pagespeed](https://github.com/user-attachments/assets/54c83c11-f727-48fe-9cac-0130234a0d2c)
 
 ## Ключевые фичи
-
-- **Производительность**
-  Размер бандла в сжатом виде (gzip): ~7.9kb
 
 - **Полностью адапаптивный дизайн**  
   Работает на всех устройствах от смартфонов до больших мониторов
