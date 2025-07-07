@@ -1,6 +1,6 @@
 .hero {
   padding-top: 1.125rem;
-  background-image: url(/assets/images/hero_375.png);
+  background-image: url(/assets/images/hero_375.webp);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -9,14 +9,14 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url(/assets/images/hero_768.png);
+    background-image: url(/assets/images/hero_768.webp);
     height: 700px;
   }
 }
 
 @media (min-width: 1024px) {
   .hero {
-    background-image: url(/assets/images/hero_1366.png);
+    background-image: url(/assets/images/hero_1366.webp);
     padding-top: 2rem;
   }
 }
@@ -24,12 +24,12 @@
 @media (min-width: 1366px) {
   .hero {
     padding-top: 1.5rem;
-    background-image: url(/assets/images/hero_1366.png);
+    background-image: url(/assets/images/hero_1366.webp);
   }
 }
 
 @media (min-width: 1920px) {
   .hero {
-    background-image: url(/assets/images/hero_1920.png);
+    background-image: url(/assets/images/hero_1920.webp);
   }
 }
